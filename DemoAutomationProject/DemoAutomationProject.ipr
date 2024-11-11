@@ -74,7 +74,7 @@
       <module filepath="$PROJECT_DIR$/DemoAutomationProject.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="22." />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="22" project-jdk-type="JavaSDK" />
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
   </component>
