@@ -33,6 +33,13 @@ public class ProductPage extends BasePage {
     @FindBy(css = "[data-test=shopping-cart-link]")
     private WebElement shoppingCartLink;
 
+    @FindBy(xpath = "//*[@id='react-burger-menu-btn']")
+    private WebElement openMenu;
+
+    @FindBy(id = "logout_sidebar_link")
+    private WebElement logoutButton;
+
+
 
 
     private List<WebElement> productElements;
@@ -106,5 +113,12 @@ public class ProductPage extends BasePage {
         return addedProductIds;
     }
 
+    public void TryToLogout(){
+        wait.until(ExpectedConditions.elementToBeClickable(openMenu)).click();
+        log.info("Menu is open");
 
+        wait.until(ExpectedConditions.elementToBeClickable(logoutButton)).click();
+        log.info("Logout Successful");
+
+    }
 }
