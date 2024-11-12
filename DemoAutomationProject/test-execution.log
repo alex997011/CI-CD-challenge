@@ -1,0 +1,22 @@
+2024-11-11 23:02:58.413 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.116 (resolved driver for Chrome 130)
+2024-11-11 23:02:58.433 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Alejandro\.cache\selenium\chromedriver\win64\130.0.6723.116\chromedriver.exe
+2024-11-11 23:03:00.135 [main] INFO  com.globant.app.pages.LoginPage - Waiting to Login
+2024-11-11 23:03:00.433 [main] INFO  com.globant.app.pages.LoginPage - Successful Login
+2024-11-11 23:03:00.520 [main] INFO  com.globant.app.pages.ProductPage - Product [sauce-labs-onesie] was added to the shopping cart
+2024-11-11 23:03:00.610 [main] INFO  com.globant.app.pages.ProductPage - Navigated to shopping cart
+2024-11-11 23:03:00.660 [main] INFO  com.globant.app.pages.CartPage - Checkout: Your Information
+2024-11-11 23:03:00.978 [main] INFO  com.globant.app.pages.CheckoutPage - Checkout: Overview
+2024-11-11 23:03:01.077 [main] INFO  com.globant.app.pages.CheckoutPage - Checkout: Complete!
+2024-11-11 23:03:01.081 [main] INFO  com.globant.app.pages.CheckoutPage - THANK YOU FOR YOUR PURCHASE :) 
+2024-11-11 23:03:06.258 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.116 (resolved driver for Chrome 130)
+2024-11-11 23:03:06.264 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Alejandro\.cache\selenium\chromedriver\win64\130.0.6723.116\chromedriver.exe
+2024-11-11 23:03:07.737 [main] INFO  com.globant.app.pages.LoginPage - Waiting to Login
+2024-11-11 23:03:08.009 [main] INFO  com.globant.app.pages.LoginPage - Successful Login
+2024-11-11 23:03:08.419 [main] INFO  com.globant.app.pages.ProductPage - Navigated to shopping cart
+2024-11-11 23:03:08.594 [main] INFO  com.globant.app.pages.CartPage - Shopping cart is empty!
+2024-11-11 23:03:13.758 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.116 (resolved driver for Chrome 130)
+2024-11-11 23:03:13.763 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Alejandro\.cache\selenium\chromedriver\win64\130.0.6723.116\chromedriver.exe
+2024-11-11 23:03:15.309 [main] INFO  com.globant.app.pages.LoginPage - Waiting to Login
+2024-11-11 23:03:15.598 [main] INFO  com.globant.app.pages.LoginPage - Successful Login
+2024-11-11 23:03:15.703 [main] INFO  com.globant.app.pages.ProductPage - Menu is open
+2024-11-11 23:03:16.345 [main] INFO  com.globant.app.pages.ProductPage - Logout Successful
