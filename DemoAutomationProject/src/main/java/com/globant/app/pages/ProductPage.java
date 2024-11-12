@@ -34,6 +34,7 @@ public class ProductPage extends BasePage {
     private WebElement shoppingCartLink;
 
 
+
     private List<WebElement> productElements;
     private List<String> productIds;
 
@@ -74,5 +75,36 @@ public class ProductPage extends BasePage {
         log.info("Navigated to shopping cart");
 
     }
+
+
+    public List<String> addThreeRandomProductsToCart() {
+        initializeProducts();
+
+        Random random = new Random();
+        Set<Integer> selectedIndex = new HashSet<>();
+
+
+        while (selectedIndex.size() < 3) {
+            int randomIndex = random.nextInt(productIds.size());
+            selectedIndex.add(randomIndex);
+        }
+
+        List<String> addedProductIds = new ArrayList<>();
+        for (int index : selectedIndex) {
+
+            WebElement addButton = wait.until(
+                    ExpectedConditions.elementToBeClickable(productElements.get(index))
+            );
+            addButton.click();
+
+            // Track the added product ID
+            String selectedProductId = productIds.get(index);
+            addedProductIds.add(selectedProductId);
+            System.out.println("Added product ID: " + selectedProductId);
+        }
+
+        return addedProductIds;
+    }
+
 
 }
