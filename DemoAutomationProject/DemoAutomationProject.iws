@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="614e7999-5748-4e08-9303-455f60ad3b8f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/DemoAutomationProject.iws" beforeDir="false" afterPath="$PROJECT_DIR$/DemoAutomationProject.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/globant/app/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globant/app/pages/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globant/app/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globant/app/pages/CartPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +258,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/CartPage",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
