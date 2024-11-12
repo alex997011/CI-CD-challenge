@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="614e7999-5748-4e08-9303-455f60ad3b8f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/DemoAutomationProject.iws" beforeDir="false" afterPath="$PROJECT_DIR$/DemoAutomationProject.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/globant/app/tests/PurchaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/globant/app/tests/PurchaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +184,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="feature/suite" />
+        <entry key="$PROJECT_DIR$/.." value="feature/BaseTest" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -254,13 +255,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/PurchaseTest",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
