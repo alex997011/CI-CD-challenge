@@ -51,7 +51,7 @@ The framework covers the following test scenarios:
 ![image](https://github.com/user-attachments/assets/b0b927c5-345b-46c1-998b-1d81702bba3b)
 
    
-3. Logoit Test
+3. Logout Test
 
     3.1 Perform logout operation
    
