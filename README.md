@@ -61,4 +61,7 @@ The framework covers the following test scenarios:
    
 ![image](https://github.com/user-attachments/assets/fead111c-8137-43f2-ba50-5883e35078e2)
 
-   
+
+
+# ⚠️ Warning
+if when cloning the repository via cmd, you run the suite.xml and the console gives you an error in the .iws file, please clone the repository directly from the IDE, it should no longer throw an error.
