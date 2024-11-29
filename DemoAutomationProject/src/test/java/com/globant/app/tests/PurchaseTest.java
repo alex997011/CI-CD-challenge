@@ -3,12 +3,19 @@ package com.globant.app.tests;
 import com.globant.app.pages.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 
 
 
 public class PurchaseTest extends BaseTest {
 
     @Test
+    @Description("Purchase Description")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("Purchase Functionality")
     public void completePurchaseFlow() throws InterruptedException {
 
         LoginPage loginPage = new LoginPage(driver);
