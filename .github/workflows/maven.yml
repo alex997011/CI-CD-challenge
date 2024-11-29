@@ -36,11 +36,11 @@ jobs:
     
     - name: Build with Maven
       id: build
-      run: mvn clean
+      run: mvn clean -f DemoAutomationProject/pom.xml
     
     - name: Run tests
       if: steps.build.outcome == 'success'
-      run: mvn -DbrowserName=${{ inputs.browserName || 'CHROME' }} verify
+      run: mvn -DbrowserName=${{ inputs.browserName || 'CHROME' }} verify DemoAutomationProject/pom.xml
     
     - name: Get Allure history
       uses: actions/checkout@v3
