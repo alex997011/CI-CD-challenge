@@ -7,7 +7,6 @@
 # documentation.
 
 name: Java CI with Maven and Allure
-
 on:
   push:
     branches: [ "main" ]
@@ -49,20 +48,22 @@ jobs:
       with:
         ref: gh-pages
         path: gh-pages
-    
+
     - name: Allure Report action
       uses: simple-elf/allure-report-action@master
       if: steps.build.outcome == 'success'
       id: allure-report
       with:
-        allure_results: allure-results
+        allure_results: ${{ vars.ALLURE_RESULTS_PATH }}
         gh_pages: gh-pages
         allure_report: allure-report
         allure_history: allure-history
-          
+
     - name: Deploy report to Github Pages
       if: success()
-      uses: peaceiris/actions-gh-pages@v3
+      uses: crazy-max/ghaction-github-pages@v4
       with:
-        github_token: ${{ github.token }}
-        publish_dir: allure-history
+        target_branch: gh-pages
+        build_dir: allure-history
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
