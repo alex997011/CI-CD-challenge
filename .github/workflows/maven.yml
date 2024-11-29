@@ -44,7 +44,7 @@ jobs:
     
     - name: Run tests
       if: steps.build.outcome == 'success'
-      run: mvn -DbrowserName=${{ inputs.browserName || 'CHROME' }} verify -f DemoAutomationProject/pom.xml
+      run: mvn clean test allure:serve -f DemoAutomationProject/pom.xml
     
     - name: Get Allure history
       uses: actions/checkout@v3
