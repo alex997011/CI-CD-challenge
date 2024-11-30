@@ -7,7 +7,6 @@
 # documentation.
 
 name: Java CI with Maven and Allure
-
 on:
   push:
     branches: [ "main" ]
@@ -38,38 +37,32 @@ jobs:
         distribution: 'temurin'
         cache: maven
     
-    - name: Build with Maven
-      id: build
-      run: mvn clean -f DemoAutomationProject/pom.xml
-    
-    - name: Run tests
-      if: steps.build.outcome == 'success'
-      run: |
-        mvn clean test -f DemoAutomationProject/pom.xml
-        mkdir -p DemoAutomationProject/target/allure-results
+    - name: Build and Run Tests
+      run: mvn clean test -f DemoAutomationProject/pom.xml
     
     - name: Get Allure history
       uses: actions/checkout@v3
-      if: steps.build.outcome == 'success'
+      if: always()
       continue-on-error: true
       with:
         ref: gh-pages
         path: gh-pages
-
+    
     - name: Generate Allure Report
       uses: simple-elf/allure-report-action@master
-      if: steps.build.outcome == 'success'
+      if: always()
       id: allure-report
       with:
-        allure_results: allure-results
+        allure_results: DemoAutomationProject/target/allure-results
         gh_pages: gh-pages
         allure_report: allure-report
         allure_history: allure-history
-
+        keep_history: true
+    
     - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@v4
-      if: success()
+      if: always()
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        branch: gh-pages
-        folder: allure-history
-        clean: true
+        github_token: ${{ github.token }}
+        publish_dir: allure-history
+        publish_branch: gh-pages
