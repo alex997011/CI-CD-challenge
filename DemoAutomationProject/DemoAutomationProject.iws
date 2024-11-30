@@ -5,23 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="614e7999-5748-4e08-9303-455f60ad3b8f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/DemoAutomationProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DemoAutomationProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoAutomationProject.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/DemoAutomationProject.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DemoAutomationProject.iws" beforeDir="false" afterPath="$PROJECT_DIR$/DemoAutomationProject.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/suite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DemoAutomationProject-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.globant.app.AppTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.globant.app.AppTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/globant/app/tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/globant/app/tests/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/globant/app/tests/CartTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/globant/app/tests/CartTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/globant/app/tests/LogoutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/globant/app/tests/LogoutTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/globant/app/tests/PurchaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/globant/app/tests/PurchaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/globant/app/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/globant/app/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1afca69d-359a-4676-bc4d-f811426eae01-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/224c3980-3baa-4210-8777-f1e8ef1dc39a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3c9fdbfe-9842-4d74-845c-7686d9b09b6f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/68a3d48c-e43f-4540-a793-96bc8aba5bae-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/710fdfb2-c3ce-4455-aa59-5bd95ed834aa-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8e2d6ae6-930b-4843-aaaa-aa0f15c645f7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b13d8496-c879-49ae-82eb-8f6dae208479-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c00fe686-d893-4e94-9c51-5c5019ab9256-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c65fab16-ec25-4e11-88b6-03c2b0517061-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c79ae6d8-4727-4ba0-a740-22ae68ef6c98-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/cbb66bd1-5088-49bd-bd4f-db6ade0145f9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d386a470-ebbf-4d5e-b4fb-298e5a345603-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e04c93b9-701a-41d3-a432-712b889fe671-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/executor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f99db908-f97b-48af-9f07-e3857f9a95f8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test Suite/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Test Suite/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test Suite/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Test Suite/Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.globant.app.tests.CartTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.globant.app.tests.CartTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.globant.app.tests.LogoutTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.globant.app.tests.LogoutTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.globant.app.tests.PurchaseTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.globant.app.tests.PurchaseTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Test Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Test Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-execution.log" beforeDir="false" afterPath="$PROJECT_DIR$/test-execution.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

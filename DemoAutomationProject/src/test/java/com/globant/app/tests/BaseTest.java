@@ -17,13 +17,12 @@ public class BaseTest {
     public void setUp() {
         WebDriverManager.chromedriver().setup();
 
-        // Configurar opciones de Chrome para modo headless
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");  // Para GitHub Actions
+        options.addArguments("--headless");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
 
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.get("https://www.saucedemo.com/");
 

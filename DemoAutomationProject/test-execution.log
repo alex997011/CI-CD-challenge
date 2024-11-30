@@ -70,3 +70,53 @@
 2024-11-29 22:04:23.904 [main] INFO  com.globant.app.pages.LoginPage - Successful Login
 2024-11-29 22:04:24.031 [main] INFO  com.globant.app.pages.ProductPage - Menu is open
 2024-11-29 22:04:24.694 [main] INFO  com.globant.app.pages.ProductPage - Logout Successful
+2024-11-29 22:11:21.568 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2024-11-29 22:11:21.574 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2024-11-29 22:11:21.575 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2024-11-29 22:11:21.581 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2024-11-29 22:11:21.582 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2024-11-29 22:11:21.582 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2024-11-29 22:11:22.157 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+2024-11-29 22:11:22.187 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Alejandro\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+2024-11-29 22:11:24.288 [main] INFO  com.globant.app.pages.LoginPage - Waiting to Login
+2024-11-29 22:11:24.637 [main] INFO  com.globant.app.pages.LoginPage - Successful Login
+2024-11-29 22:11:24.744 [main] INFO  com.globant.app.pages.ProductPage - Product [sauce-labs-backpack] was added to the shopping cart
+2024-11-29 22:11:24.868 [main] INFO  com.globant.app.pages.ProductPage - Navigated to shopping cart
+2024-11-29 22:11:24.946 [main] INFO  com.globant.app.pages.CartPage - Checkout: Your Information
+2024-11-29 22:11:25.295 [main] INFO  com.globant.app.pages.CheckoutPage - Checkout: Overview
+2024-11-29 22:11:25.397 [main] INFO  com.globant.app.pages.CheckoutPage - Checkout: Complete!
+2024-11-29 22:11:25.402 [main] INFO  com.globant.app.pages.CheckoutPage - THANK YOU FOR YOUR PURCHASE :) 
+2024-11-29 22:11:30.581 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+2024-11-29 22:11:30.587 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Alejandro\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+2024-11-29 22:11:32.070 [main] INFO  com.globant.app.pages.LoginPage - Waiting to Login
+2024-11-29 22:11:32.391 [main] INFO  com.globant.app.pages.LoginPage - Successful Login
+2024-11-29 22:11:32.872 [main] INFO  com.globant.app.pages.ProductPage - Navigated to shopping cart
+2024-11-29 22:11:33.097 [main] INFO  com.globant.app.pages.CartPage - Shopping cart is empty!
+2024-11-29 22:11:38.238 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+2024-11-29 22:11:38.244 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Alejandro\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+2024-11-29 22:11:39.744 [main] INFO  com.globant.app.pages.LoginPage - Waiting to Login
+2024-11-29 22:11:40.049 [main] INFO  com.globant.app.pages.LoginPage - Successful Login
+2024-11-29 22:11:40.168 [main] INFO  com.globant.app.pages.ProductPage - Menu is open
+2024-11-29 22:11:40.827 [main] INFO  com.globant.app.pages.ProductPage - Logout Successful
+2024-11-29 22:18:09.540 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+2024-11-29 22:18:09.570 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Alejandro\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+2024-11-29 22:18:11.730 [main] INFO  com.globant.app.pages.LoginPage - Waiting to Login
+2024-11-29 22:18:11.994 [main] INFO  com.globant.app.pages.LoginPage - Successful Login
+2024-11-29 22:18:12.083 [main] INFO  com.globant.app.pages.ProductPage - Product [sauce-labs-bolt-t-shirt] was added to the shopping cart
+2024-11-29 22:18:12.200 [main] INFO  com.globant.app.pages.ProductPage - Navigated to shopping cart
+2024-11-29 22:18:12.255 [main] INFO  com.globant.app.pages.CartPage - Checkout: Your Information
+2024-11-29 22:18:12.572 [main] INFO  com.globant.app.pages.CheckoutPage - Checkout: Overview
+2024-11-29 22:18:12.676 [main] INFO  com.globant.app.pages.CheckoutPage - Checkout: Complete!
+2024-11-29 22:18:12.681 [main] INFO  com.globant.app.pages.CheckoutPage - THANK YOU FOR YOUR PURCHASE :) 
+2024-11-29 22:18:17.848 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+2024-11-29 22:18:17.856 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Alejandro\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+2024-11-29 22:18:19.349 [main] INFO  com.globant.app.pages.LoginPage - Waiting to Login
+2024-11-29 22:18:19.596 [main] INFO  com.globant.app.pages.LoginPage - Successful Login
+2024-11-29 22:18:20.026 [main] INFO  com.globant.app.pages.ProductPage - Navigated to shopping cart
+2024-11-29 22:18:20.219 [main] INFO  com.globant.app.pages.CartPage - Shopping cart is empty!
+2024-11-29 22:18:25.365 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+2024-11-29 22:18:25.372 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Alejandro\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+2024-11-29 22:18:26.807 [main] INFO  com.globant.app.pages.LoginPage - Waiting to Login
+2024-11-29 22:18:27.069 [main] INFO  com.globant.app.pages.LoginPage - Successful Login
+2024-11-29 22:18:27.188 [main] INFO  com.globant.app.pages.ProductPage - Menu is open
+2024-11-29 22:18:27.833 [main] INFO  com.globant.app.pages.ProductPage - Logout Successful
