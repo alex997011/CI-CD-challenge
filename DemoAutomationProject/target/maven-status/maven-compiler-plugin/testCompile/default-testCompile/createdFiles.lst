@@ -1,1 +1,4 @@
-com\globant\app\AppTest.class
+com\globant\app\tests\LogoutTest.class
+com\globant\app\tests\PurchaseTest.class
+com\globant\app\tests\BaseTest.class
+com\globant\app\tests\CartTest.class

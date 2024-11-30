@@ -1,1 +1,6 @@
-com\globant\app\App.class
+com\globant\app\pages\BasePage.class
+com\globant\app\pages\CartPage.class
+com\globant\app\config\LoggerConfig.class
+com\globant\app\pages\LoginPage.class
+com\globant\app\pages\ProductPage.class
+com\globant\app\pages\CheckoutPage.class

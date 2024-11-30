@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-29T22:04:05 ECT" name="Test Suite" finished-at="2024-11-29T22:04:29 ECT" duration-ms="24649">
+    <groups>
+    </groups>
+    <test started-at="2024-11-29T22:04:05 ECT" name="Test" finished-at="2024-11-29T22:04:29 ECT" duration-ms="24649">
+      <class name="com.globant.app.tests.CartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.globant.app.tests.CartTest@70721c12]" started-at="2024-11-29T22:04:14 ECT" name="setUp" finished-at="2024-11-29T22:04:16 ECT" duration-ms="1484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="completeRemoveFlow()[pri:0, instance:com.globant.app.tests.CartTest@70721c12]" started-at="2024-11-29T22:04:16 ECT" name="completeRemoveFlow" finished-at="2024-11-29T22:04:16 ECT" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeRemoveFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.globant.app.tests.CartTest@70721c12]" started-at="2024-11-29T22:04:16 ECT" name="tearDown" finished-at="2024-11-29T22:04:22 ECT" duration-ms="5147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.globant.app.tests.CartTest -->
+      <class name="com.globant.app.tests.LogoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.globant.app.tests.LogoutTest@769bd849]" started-at="2024-11-29T22:04:22 ECT" name="setUp" finished-at="2024-11-29T22:04:23 ECT" duration-ms="1464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="completeLogoutFlow()[pri:0, instance:com.globant.app.tests.LogoutTest@769bd849]" started-at="2024-11-29T22:04:23 ECT" name="completeLogoutFlow" finished-at="2024-11-29T22:04:24 ECT" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeLogoutFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.globant.app.tests.LogoutTest@769bd849]" started-at="2024-11-29T22:04:24 ECT" name="tearDown" finished-at="2024-11-29T22:04:29 ECT" duration-ms="5142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.globant.app.tests.LogoutTest -->
+      <class name="com.globant.app.tests.PurchaseTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.globant.app.tests.PurchaseTest@68dd39d2]" started-at="2024-11-29T22:04:05 ECT" name="setUp" finished-at="2024-11-29T22:04:08 ECT" duration-ms="2999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="completePurchaseFlow()[pri:0, instance:com.globant.app.tests.PurchaseTest@68dd39d2]" started-at="2024-11-29T22:04:08 ECT" name="completePurchaseFlow" finished-at="2024-11-29T22:04:09 ECT" duration-ms="1111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completePurchaseFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.globant.app.tests.PurchaseTest@68dd39d2]" started-at="2024-11-29T22:04:09 ECT" name="tearDown" finished-at="2024-11-29T22:04:14 ECT" duration-ms="5144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.globant.app.tests.PurchaseTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Test Suite -->
+</testng-results>

@@ -8,13 +8,20 @@
       <change beforePath="$PROJECT_DIR$/DemoAutomationProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DemoAutomationProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DemoAutomationProject.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/DemoAutomationProject.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DemoAutomationProject.iws" beforeDir="false" afterPath="$PROJECT_DIR$/DemoAutomationProject.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DemoAutomationProject-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/DemoAutomationProject-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DemoAutomationProject-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.globant.app.AppTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.globant.app.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/globant/app/tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/globant/app/tests/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/globant/app/tests/CartTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/globant/app/tests/CartTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/globant/app/tests/LogoutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/globant/app/tests/LogoutTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/globant/app/tests/PurchaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/globant/app/tests/PurchaseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-execution.log" beforeDir="false" afterPath="$PROJECT_DIR$/test-execution.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -198,6 +205,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "alex997011"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/alex997011/CI-CD-challenge.git",
+    "accountId": "99cd53b1-8a7a-4fb3-b8bf-3d08bde05d6e"
+  }
+}]]></component>
   <component name="HierarchyBrowserManager">
     <option name="SHOW_PACKAGES" value="false" />
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -264,13 +283,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.C:/Users/Alejandro/Desktop/DemoWebAutomationProject/DemoAutomationProject/suite.xml.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alejandro\Desktop\CICDCHALLENGUE\CI-CD-challenge\DemoAutomationProject\src\test\resources" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="C:/Users/Alejandro/Desktop/DemoWebAutomationProject/DemoAutomationProject/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoAutomationProject" />
@@ -291,7 +316,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f2f5b1fb-1aa4-42fd-9b28-ab3123c0cd25" name="Changes" comment="" />
+      <changelist id="614e7999-5748-4e08-9303-455f60ad3b8f" name="Changes" comment="" />
       <created>1731519986390</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
