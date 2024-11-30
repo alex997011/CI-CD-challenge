@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Logout Test Description","579","completeLogoutFlow","Test Suite","Sat Nov 30 03:25:44 GMT 2024","passed","Sat Nov 30 03:25:45 GMT 2024","com.globant.app.tests.LogoutTest","Test","com.globant.app.tests.LogoutTest","completeLogoutFlow"
+"Cart Test Description","1160","completeRemoveFlow","Test Suite","Sat Nov 30 03:25:38 GMT 2024","passed","Sat Nov 30 03:25:39 GMT 2024","com.globant.app.tests.CartTest","Test","com.globant.app.tests.CartTest","completeRemoveFlow"
+"Purchase Description","1237","completePurchaseFlow","Test Suite","Sat Nov 30 03:25:31 GMT 2024","passed","Sat Nov 30 03:25:32 GMT 2024","com.globant.app.tests.PurchaseTest","Test","com.globant.app.tests.PurchaseTest","completePurchaseFlow"
