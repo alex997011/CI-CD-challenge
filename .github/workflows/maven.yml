@@ -23,6 +23,7 @@ on:
 permissions:
   contents: write
   pages: write
+  id-token: write
 
 jobs:
   build:
@@ -37,32 +38,26 @@ jobs:
         distribution: 'temurin'
         cache: maven
     
-    - name: Build and Run Tests
-      run: mvn clean test -f DemoAutomationProject/pom.xml
+    - name: Run Tests and Generate Allure Results
+      run: |
+        cd DemoAutomationProject
+        mvn clean test
     
-    - name: Get Allure history
-      uses: actions/checkout@v3
-      if: always()
-      continue-on-error: true
+    - name: Upload Allure Results
+      uses: actions/upload-artifact@v3
       with:
-        ref: gh-pages
-        path: gh-pages
-    
+        name: allure-results
+        path: DemoAutomationProject/target/allure-results/
+        
     - name: Generate Allure Report
       uses: simple-elf/allure-report-action@master
-      if: always()
-      id: allure-report
       with:
         allure_results: DemoAutomationProject/target/allure-results
-        gh_pages: gh-pages
         allure_report: allure-report
-        allure_history: allure-history
-        keep_history: true
-    
+        gh_pages: gh-pages
+        
     - name: Deploy to GitHub Pages
-      if: always()
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ github.token }}
-        publish_dir: allure-history
-        publish_branch: gh-pages
+        publish_dir: allure-report
